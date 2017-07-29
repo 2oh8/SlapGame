@@ -1,0 +1,40 @@
+.main-game-content {
+    font-family: "Creepster";
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: .175vw;
+    color: darkslategray;
+    font-size: 5vw;
+    text-align: left;
+    background: url("http://i.imgur.com/xrjiVDx.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vw;
+    width: 100vw;
+}
+
+@keyframes hover {
+    from { margin-top: 10vw;}
+    to {margin-top: 15vw}
+}
+
+#ghostman {
+    width: 10vw;
+    image-orientation: center;
+    margin-top: 15vw;
+    animation: hover 800ms infinite alternate;
+}
+
+.attackpanel {
+    color: white;
+    background: darkslategray;
+    text-align: center;
+    position: absolute;
+}
+
+.attackbuttons {
+    font-family: "Creepster";
+    font-size: 2vw;
+    margin: 1rem;
+    
+}
