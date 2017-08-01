@@ -17,12 +17,16 @@
     from { margin-top: 10vw;}
     to {margin-top: 15vw}
 }
+@keyframes  sidetoside {
+    from {margin-left: 30vw}
+    to {margin-left: 70vw}
+    }
 
 #ghostman {
     width: 10vw;
     image-orientation: center;
     margin-top: 15vw;
-    animation: hover 800ms infinite alternate;
+    animation: hover 800ms infinite alternate, sidetoside 4000ms infinite alternate;
 }
 
 .attackpanel {
